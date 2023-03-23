@@ -14,8 +14,10 @@ export const FriendList = ({ friends }) => {
   );
 };
 
-FriendList.prototype = {
-  friends: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-  }).isRequired,
+FriendList.propTypes = {
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+    }).isRequired
+  ).isRequired,
 };
