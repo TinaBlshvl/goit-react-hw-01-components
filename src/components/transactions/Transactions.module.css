@@ -1,0 +1,27 @@
+.table {
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-collapse: collapse;
+  border-spacing: 10px 20px;
+  table-layout: fixed;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.thead {
+  background-color: rgba(12, 78, 16, 0.2);
+}
+
+.thName {
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+.trString:nth-of-type(even) {
+  background-color: #f5ecec;
+}
+
+.tdString {
+  padding: 15px 20px;
+}
